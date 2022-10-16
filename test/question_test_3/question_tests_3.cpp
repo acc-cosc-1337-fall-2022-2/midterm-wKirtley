@@ -8,5 +8,5 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("test")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(get_cookie_ingredients(48) == (1.5, 1, 2.75));
 }
